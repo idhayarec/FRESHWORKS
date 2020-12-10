@@ -1,4 +1,3 @@
-//package com.datastore.client.main;
 import java.util.*;
 import org.json.simple.JSONObject;
 import com.datastore.main.DataStore;
