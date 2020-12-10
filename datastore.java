@@ -27,7 +27,7 @@ public class datastore {
 			//System.out.println(myDataStore.create("1", jsonObject, 10));// failure
 			System.out.println(myDataStore.create("2", jsonObject));// success
 			System.out.println(myDataStore.create(
-					"helloDataStoreThisIsKeyNameValidation", new JSONObject()));// failure
+					"ISTHISKEYVALIDATINGSUCCESSFULLYYESORNO", new JSONObject()));// failure
 			try {
 				// wait for 10 seconds
 				Thread.sleep(10000);
