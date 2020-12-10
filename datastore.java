@@ -50,7 +50,6 @@ public class datastore {
 			System.out.println(myDataStore.read("1"));// success
 			System.out.println(myDataStore.read("2"));// success
 			System.out.println(myDataStore.read("3"));// failure
-			System.out.println(myDataStore.read("helloDataStoreThisIsKeyNameValidation"));// failure
 			try {
 				// wait for 10 seconds
 				Thread.sleep(10000);
@@ -67,12 +66,8 @@ public class datastore {
 			System.out.println(myDataStore.delete("2"));// success
 			System.out.println(myDataStore.delete("2"));// failure
 			System.out.println(myDataStore.delete("3"));// failure
-			System.out.println(myDataStore.delete("helloDataStoreThisIsKeyNameValidation"));// failure
-			//
-			/*
-			 * DataStore myDataStore1 = new
-			 * System.out.println(myDataStore1.create("1", new JSONObject(), 10));
-			 */
+			System.out.println(myDataStore.delete("ISTHISKEYVALIDATINGSUCCESSFULLYYESORNO"));// failure
+			
 		
 	}
 }
